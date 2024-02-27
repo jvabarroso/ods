@@ -1,0 +1,163 @@
+:root {
+    --cor: #c5192d;
+}
+
+* {
+    font-family: Times, serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ff4d4d;
+    color: #ffffff;
+}
+#tlink{
+    margin-top: 2vw;
+    text-align: center;
+}
+#g{
+    width: 98.75vw;
+    height: 4vh;
+    background-image: linear-gradient(to top,#ff4d4d, #aa2528);
+}
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 8.6vh;
+    width: 98.75vw;
+    background-color: var(--cor);
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    z-index: 99;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#inicio {
+    display: inline-block;
+    background: var(--cor);
+    color: white;
+    font-size: 19px;
+    padding: 0px 2vw 0px 0vw;
+    text-align: center;
+    background-color: #aa2528;
+}
+#PNE {
+    margin-top: 1vh;
+    text-align: center;
+    align-items: center;
+}
+
+.Banner-Cima{
+    float: left;
+    width: 898px;
+    height: 526px;
+}
+.text-ods{
+    margin-top: 2vh;
+     text-align: justify;
+     margin-left: 1vw;
+}
+.link-metas{
+    color: white;
+    text-decoration: none;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.logo-PNE{
+    border-radius: 10%;
+    position: relative;
+    width: 40%;
+    height: 40%;
+}
+
+.texto-PNE{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+}  
+#mais{
+    text-align: left;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0.9vw;
+    font-size: 1.8vw;
+    transition: all .6s;
+    word-spacing: 0.7vw;
+}
+.navbar a:hover {
+    background-color: rgb(233, 126, 126);
+    position: relative;
+}
+.navbar a:active {
+    font-size: 1.5vw;
+}
+.graficos{
+    padding-left: 28vw; 
+}
+
+.text{
+    text-align: justify;
+    font-size: x-large;
+    padding: 0px 7vw 0px 6vw;
+}
+.img3{
+    padding-left: 20vw;
+}
+h1{
+    text-align: center;
+}
+section{
+    scroll-margin-top: 10vh;
+}
+.enem{
+    float: right;
+    padding: 0px 3vw 3vh 2vw;
+}
+.text-enem{
+    font-size: x-large;
+    text-align: justify;
+    padding: 0px 5vw 3vh 2vw;
+}
+.sisu{
+    float: left;
+    padding: 5vh 2vw 0px;
+    width: 525px;
+    height: 214px;
+}
+.text-sisu{
+    text-align: justify;
+    font-size: x-large;
+    padding: 4vh 2vw 0px 5vw ;
+}
+.text-prouni{
+    font-size: x-large;
+    text-align: justify;
+    padding: 0px 5vw 3vh 2vw;
+}
+.prouni{
+    float: right;
+    padding: 2vh 3vw 3vh 2vw;
+    width: 355px;
+    height: 249px;
+}
+
